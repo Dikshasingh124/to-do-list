@@ -19,7 +19,7 @@ JavaScript
 # Contact
 For questions or feedback,[dikshasinghchouhan10@gmail.com].
 # installation
-git clone https://github.com/Dikshasingh124/todo-list-website.git
+git clone https://github.com/Dikshasingh124/to-do-list-website.git
 cd todo-list-website
 
 
