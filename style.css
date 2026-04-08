@@ -6,22 +6,20 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #C7253E;
+    background: #2c2f4a; /* soft dark blue (easy on eyes) */
 }
-
 .box {
     position: relative;
     width: 450px;
     height: 550px;
     border-radius: 30px;
     padding: 30px 50px;
-    background: #C7253E;
+  background: #2c2c54;
     box-shadow: 
         15px 15px 40px rgba(106, 4, 15, 0.5),
         5px 5px 20px rgba(221, 136, 144, 0.3), 
@@ -30,12 +28,11 @@ body {
 }
 
 h1 {
-    width: 100%;
-    font-weight: 900;
     text-align: center;
-    color: black;
-    font-size: 1.75em;
-    margin-bottom: 10px;
+    color: #fff;
+    font-size: 2em;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
 }
 
 #inputBx {
@@ -146,4 +143,46 @@ h1 {
 
 ::-webkit-scrollbar-thumb {
     background: #fff;
+}
+/* Controls (counter + button) */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#taskCount {
+    color: #fff;
+    font-size: 0.9em;
+}
+
+#clearAll {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 20px;
+    background: #fff;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: 0.3s;
+}
+
+#clearAll:hover {
+    background: #ddd;
+}
+
+/* Task date */
+.small-text {
+    font-size: 0.7em;
+    margin-left: 10px;
+    color: #333;
+}
+
+/* Improve spacing */
+#inputBx {
+    margin-top: 10px;
+}
+
+#list {
+    margin-top: 25px;
 }
